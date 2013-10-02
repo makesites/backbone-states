@@ -1,0 +1,8 @@
+{
+  "name": "backbone.states",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/makesites/backbone-states.git"
+  }
+}
