@@ -1,6 +1,6 @@
 /*
- * Backbone.ready()
- * Source: https://gist.github.com/tracend/5617079
+ * Backbone States
+ * Source: https://github.com/makesites/backbone-states
  *
  * Created by Makis Tracend ( [@tracend](http://github.com/tracend) )
  * Released under the [MIT license](http://makesites.org/licenses/MIT)
