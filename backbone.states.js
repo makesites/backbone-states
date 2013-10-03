@@ -11,13 +11,15 @@
 	// find the $
 	//$ = ('$' in window) ? window.$ : window.jQuery || window.Zepto || false;
 
-	Backbone.View = Backbone.View.extend({
+	var View = Backbone.View;
+
+	Backbone.View = View.extend({
 		states: {
-		}, 
+		},
 		initialize: function(options){
 			this.initStates();
-			return Backbone.View.prototype.initialize.call(this, options);
-		}, 
+			return View.prototype.initialize.call(this, options);
+		},
 		initStates: function(){
 			for(var e in this.states){
 				var method = this.states[e];
@@ -28,7 +30,7 @@
 	});
 
 	// Helpers
-
+	//...
 
 	return Backbone;
 
